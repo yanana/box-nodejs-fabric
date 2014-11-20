@@ -1,0 +1,12 @@
+name: nodejs-fabric
+version: 0.0.1
+description: Latest Node.js with fabric
+Inherits: wercker/nodejs@1.4.0
+type: main
+platform: ubuntu@12.04
+keywords:
+  - nodejs
+  - fabric
+script: |
+  sudo pip install fabric
+
