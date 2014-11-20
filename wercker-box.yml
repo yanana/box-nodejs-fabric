@@ -6,17 +6,11 @@ type: main
 platform: ubuntu@12.04
 packages:
   - python@2.7.3
-  - python@3.2.3
-  - setuptools@3.4.4
   - pip@1.5.5
-  - virtualenv@1.11.5
-  - wheel@0.23.0
-  - psycopg2
-  - phantomjs
-  - mercurial@2.2.2
 keywords:
   - nodejs
   - fabric
 script: |
+  sudo apt-get update -y
+  sudo apt-get install python-pip -y
   sudo pip install fabric
-
