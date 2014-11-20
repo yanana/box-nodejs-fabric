@@ -12,5 +12,5 @@ keywords:
   - fabric
 script: |
   sudo apt-get update -y
-  sudo apt-get install python-pip -y
+  sudo apt-get install build-essential python-pip -y
   sudo pip install fabric
