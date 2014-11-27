@@ -1,6 +1,6 @@
 name: nodejs-fabric
-version: 0.0.1
-description: Latest Node.js with fabric
+version: 0.0.2
+description: Latest Node.js with fabric(Jinja2 enabled)
 Inherits: wercker/nodejs@1.4.0
 type: main
 platform: ubuntu@12.04
