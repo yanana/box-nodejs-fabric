@@ -13,4 +13,4 @@ keywords:
 script: |
   sudo apt-get update -y
   sudo apt-get install build-essential python-dev python-pip -y
-  sudo pip install fabric
+  sudo pip install fabric jinja2
