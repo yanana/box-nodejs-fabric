@@ -1,5 +1,5 @@
 name: nodejs-fabric
-version: 0.0.2
+version: 0.0.3
 description: Latest Node.js with fabric(Jinja2 enabled)
 Inherits: wercker/nodejs@1.4.0
 type: main
